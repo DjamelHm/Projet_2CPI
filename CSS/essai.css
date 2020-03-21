@@ -1,0 +1,16 @@
+.enreg{
+    /* background-color: darkblue; */
+    border: red solid 3px;
+    padding: 10px;
+}
+
+.donnees{
+    background-color: darkred;
+    width: 70px;
+}
+
+.enreg1 {
+    background-color: rgba(204, 204, 204, 0.795);
+    position: relative;
+    /* left: -150px; */
+}

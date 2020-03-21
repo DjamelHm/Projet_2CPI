@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/******************** Navbar ******************************/
+
+#navbar{
+    background-color: #111111;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    overflow: hidden;
+    position: relative;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    align-items: center;
+}
+
+#navbar li a{
+    color: azure;
+    text-decoration: none;
+    padding: 20px;
+}
+
+#navbar ul li a:hover {
+    background-color: #ccc;
+}
+
+.logo {
+    text-align: center;
+    /* background-color: lawngreen; */
+    width: 100px;
+    align-self: center;
+    padding: 20px 0;
+}
+
+.projet {
+    background-color: #312b2b;
+    padding: 20px 1px;
+}
+
+
+/****************** Chapitres **********************/
+
+.chapitres {
+    height: 500px;
+    padding-top: 75px;
+    background-color: aqua;
+    text-align: center;
+}
+
+.chapitres h1 {
+    font-size: 40px;
+}
+
+.chapitres ul li {
+    padding-top: 40px;
+    display: flex;
+    padding-left: 15px;
+}
+
+.chapitres ul li a {
+    background-color: brown;
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: azure;
+}
+
+.chapitres ul li p {
+    padding-left: 20px;
+    align-self: center;
+    font-size: 15px;
+}

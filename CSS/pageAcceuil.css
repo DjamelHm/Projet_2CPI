@@ -1,0 +1,241 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Utility classes */
+.l-heading{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom:  auto;
+    line-height: 1.1;
+    padding-top: 1rem;
+  }
+  .m-heading{
+      text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+  }
+  .lead{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  
+  }
+
+
+
+/* .container{
+    background: rgba(180, 179, 179,0.4);
+    margin: 0 auto;
+    width: 70%;
+} */
+
+
+
+
+/* color:#49c1a2 */
+/******************** Navbar ******************************/
+
+#navbar{
+    background-color: #0c1f44;
+    color: azure;
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    align-items: center;
+}
+
+#navbar li a{
+    color: azure;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+}
+
+#navbar ul li a:hover {
+    background-color: #253b64;
+}
+
+.logo {
+    text-align: center;
+    /* background-color: lawngreen; */
+    width: 100px;
+    align-self: center;
+    padding: 20px 0;
+}
+
+.current {
+    background-color: #253b64;
+    padding: 20px 1px;
+}
+
+/************** Showcase ******************************/
+
+.showcase {
+    background: #333 url('../IMg/bg-header-nwrdc.jpg') center center/cover no-repeat ;
+    /* background-color: rgb(83, 78, 78); */
+    height: 600px;
+    text-align: center;
+}
+
+.sfsd {
+    color: teal;
+}
+
+.title {
+    padding-top: 150px;
+    color: azure;
+    padding-bottom: 10px;
+    font-size: 55px;
+}
+
+.desc {
+    color: white;
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+
+#Apropos {
+    font-size: 15px;
+    color: azure;
+    background-color: rgb(168, 140, 16);
+    padding: 10px 20px;
+    display: inline-block;
+    border: none;
+}
+
+#Apropos:hover {
+    background-color: blue;
+}
+/* Fonctionnalités */
+
+#info{
+    color: white;
+    background: #253b64 ;
+
+}
+.info-item{
+color: rgb(44, 168, 218);
+
+}
+
+#info .items{
+display:flex ;
+padding: 1rem;
+}
+
+#info .items .item{
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+
+}
+ /* .items .item i{
+  background: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************** Chapitres *********************/
+
+.chapitres {
+    /* background-color: #090a49; */
+    background: url('../IMG/hébergeur-web.jpg') center center/cover no-repeat;
+    color: azure;
+    height: 550px;
+}
+
+.chapitres header {
+    font-size: 40px;
+    color: skyblue;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+/* .chapitres ul {
+    display: flex;
+} */
+
+.chapitres ul li {
+    width: 150px;
+    color: #cacaca;
+    list-style: none;
+    padding: 7px;
+    background-color:  rgb(44, 168, 218);
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    transition: all 1s ease-in-out;
+    font-size: 11px;
+}
+
+/* .chapitres ul li:nth-child(2n){
+    background-color:  rgb(44, 168, 218);
+    float: right;
+    left: 0px;
+    transform: translate(200px, 0);
+    
+}
+
+.chapitres ul li:nth-child(2n+1){
+    float: right;
+    left: 0px;
+    transform: translate(-500px, 0);
+    
+} */
+
+.chapitres ul li .chap1{ 
+ 
+    transform: translate(200, -100);
+}
+
+
+
+
+.chapitres ul li h2 {
+    padding-bottom: 10px;
+}
+
+/************************** Footer ****************************/
+
+.footer {
+    text-align: center;
+    background-color: #253b64;
+    color: azure;
+    padding: 10px;
+    
+}
