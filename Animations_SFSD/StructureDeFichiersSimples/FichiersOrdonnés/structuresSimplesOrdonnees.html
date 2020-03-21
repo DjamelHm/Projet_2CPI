@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/fontawesome/css/all.css">
+  <link rel="stylesheet" href="/CSS/structuresSimplesOrdonnees.css">
+
+  <title>Projet</title>
+</head>
+<body>
+  <nav id="navbar">
+    <!-- <a class="retour" href="#"><i class="arrow-left"></i></a> -->
+    <h1 class="logo">Logo</h1>
+    <ul>
+      <li><a class="current" href="#">Structures Simples</a></li>
+      <li><a href="#">Méthodes d'index</a></li>
+      <li><a href="#">Structures d'arbres</a></li>
+      <li><a href="#">Hachage</a></li>
+      <li><a href="/OperationsHautNiveau/operationsHautNiveau.html">Opérations Haut-Niveau</a></li>
+    </ul>
+  </nav>
+
+  <div class="operAnimContainer">
+
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="operations"></i>
+    </label>
+
+    <div class="side-bar">
+      <header class="op">Opérations</header>
+      <ul class="side-menu">
+        <li class="creation"><i class="fas fa-link"></i> Création</li>
+        <li class="recherche">Recherche</li>
+        <li class="suppression">Suppression</li>
+        <li class="insertion">Insertion</li>
+        <li class="modif">Modification</li>
+        <!-- <li class="trier">Tri</li> -->
+
+      </ul>
+    </div>
+
+    <div class="opertions">
+
+      <!-- <div class="creationEnregs">
+        <p class="entrerNbEnreg">Nombre d'enregistrement</p>
+        <input type="number" name="Enregistrements" id="nbEnregistrements">
+        <input type="submit" value="Ajouter" id="ajoutEnreg">
+      </div> -->
+
+      <div class="creationBlocs">
+        <p class="entrerNbBlocs">Nombre de blocs</p>
+        <input type="number" name="Blocs" id="nbblocs">
+        <p class="entrerNbEnreg">Nombre d'enregistrement</p>
+        <input type="number" name="Enregistrements" id="nbEnregistrements">
+        <input type="submit" value="Ajouter" id="ajoutBlocEnreg">
+      </div>
+
+      <div class="rechEnreg">
+        <p class="entrerNbEnreg">Numéro d'enregistrement</p>
+        <input type="number" name="Enregistrements" id="numEnregRech">
+        <input type="submit" value="Rehercher" id="RechercherEnreg">
+      </div>
+
+      <div class="suppressionEnreg">
+        <p class="entrerNbEnreg">Numéro d'enregistrement</p>
+        <input type="number" name="Enregistrements" id="numEnregSuppreme">
+        <input type="submit" value="Supprimer" id="SupprimeEnreg">
+      </div>
+
+      <div class="insertionEnreg">
+        <p class="entrerNbEnreg">Nombre d'enregistrement</p>
+        <input type="number" name="Enregistrements" id="nbEnregistrementsInsere">
+        <input type="submit" value="Insérer" id="inserEnreg">
+      </div>
+
+      
+
+    </div>
+
+    <div class="fichier">
+      <div class="entete">
+        <h2 class="enteteHeading">Entete :</h2>
+        <div class="blocsEnregsEntete">
+          <div class="blocsEntete">
+            <p>Blocs : </p>
+            <div class="nbBlocsEntete"></div>
+          </div>
+          <div class="enregsEntete">
+            <p>Enregistrements : </p>
+            <p class="nbEnregsEntete"></p>
+            <!-- <div class="nbEnregsEntete">5</div> -->
+          </div>
+        </div>
+      </div>
+
+      <div class="blocs"></div>
+
+    <div class="enregistrements"></div>
+
+    <div class="algorithme">
+      <div class="parametres"></div>
+      <div class="corps"></div>
+    </div>
+
+  </div>
+
+  <!-- <div class="btns">
+    <button class="play"><i class="fa fa-play-circle"></i></button>
+    <button class="pause"><i class="fa fa-pause-circle"></i></button>
+  </div> -->
+      
+  <script src="/anime-master/lib/anime.es.js"></script>
+  <script src="/anime-master/lib/anime.js"></script>
+  <script src="/anime-master/lib/anime.min.js"></script>
+  <script src="/anime-master/build.js"></script>
+  <script src="./creationFichier.js"></script>
+  <script src="./inserEnregMAJ.js"></script>
+  <script src="./supprimeEnregMAJ.js"></script>
+  <!-- <script src="./triFichier.js"></script> -->
+  <script src="./recherchEnreg.js"></script>
+  <script src="/jQuery.js"></script>
+</body>
+</html>
